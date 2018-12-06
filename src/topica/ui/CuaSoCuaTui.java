@@ -50,7 +50,6 @@ public class CuaSoCuaTui extends JFrame {
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setLocationRelativeTo(null);
 		this.setVisible(true);
-		this.setVisible(true);
 	}
 	
 }
