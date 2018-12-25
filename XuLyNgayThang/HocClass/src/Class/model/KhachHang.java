@@ -10,7 +10,6 @@ package Class.model;
  * @author nguye
  */
 public class KhachHang {
-
     private String ma;
     private String ten;
     private int tuoi;
