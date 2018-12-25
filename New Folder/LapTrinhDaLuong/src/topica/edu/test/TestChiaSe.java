@@ -23,6 +23,6 @@ public class TestChiaSe {
         th2.start();
         th1.start();
         th3.start();
-        System.out.println(mt.getX());
+        System.out.println(mt);
     }
 }
