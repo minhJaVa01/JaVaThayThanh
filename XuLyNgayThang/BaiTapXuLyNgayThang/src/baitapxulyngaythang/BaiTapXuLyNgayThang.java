@@ -5,8 +5,10 @@
  */
 package baitapxulyngaythang;
 
+import java.text.SimpleDateFormat;
 import java.time.Year;
 import java.util.Calendar;
+import java.util.Date;
 
 /**
  *
@@ -25,6 +27,10 @@ public class BaiTapXuLyNgayThang {
         System.out.println(" Nam nay la nam :" +nam);
         System.out.println(" thang hien tai la thang "+ (thang+1));
         System.out.println(" ngay hien tai la ngay :"+ ngay);
+        Date t =cal.getTime();
+        
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyy");
+        System.out.println("Hom nay :"+sdf.format(t));
     }
     
 }
