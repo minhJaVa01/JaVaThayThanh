@@ -21,7 +21,7 @@ public class XuLyDinhDangSo {
         double ly =6;
         double hoa =9;
         double dtb =(toan+ ly +hoa)/3;
-        DecimalFormat dcf =  new DecimalFormat("#.##");
+        DecimalFormat dcf =  new DecimalFormat("#.###");
         System.out.println("diem trung binh "+dcf.format(dtb));
     }
     
