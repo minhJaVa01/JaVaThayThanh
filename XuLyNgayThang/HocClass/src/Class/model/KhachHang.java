@@ -10,6 +10,7 @@ package Class.model;
  * @author nguye
  */
 public class KhachHang {
+
     private String ma;
     private String ten;
     private int tuoi;
@@ -60,8 +61,11 @@ public class KhachHang {
 
     @Override
     public String toString() {
-        return "KhachHang{" + "ma=" + ma + ", ten=" + ten + ", tuoi=" + tuoi + ", diaChi=" + diaChi + '}';
+        return  this.ma  + this.ten + this.tuoi + this.diaChi ;
     }
+
+   
+    
     
 
 }
