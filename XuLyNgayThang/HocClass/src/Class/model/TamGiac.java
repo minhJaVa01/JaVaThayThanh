@@ -58,7 +58,11 @@ public class TamGiac {
            return s +"\nChu vi ="+chuVi() +"; Dien tich = "+ dienTich();
        }
     }
-
+    /**
+     * hàm kiemTraHopLe() là hỗ trợ thông tin cho SERVICE MOTHOD 
+     * public là service method toString()
+     * @return 
+     */
     private boolean kiemTraHopLe() {
         boolean kt = this.canhA > 0 && this.canhB > 0 && this.canhC > 0
                 && ((this.canhA + this.canhB) > this.canhC)
