@@ -9,7 +9,8 @@ package topica.edu.model;
  *
  * @author nguye
  */
-public class NhanVien implements Comparable<NhanVien>{
+public class NhanVien implements Comparable<NhanVien> {
+
     private int ma;
     private String ten;
 
@@ -41,19 +42,21 @@ public class NhanVien implements Comparable<NhanVien>{
     public String toString() {
         return "NhanVien{" + "ma=" + ma + ", ten=" + ten + '}';
     }
-    
+
     // = 0=>bang nhau
     //>0=>>
     @Override
     public int compareTo(NhanVien o) {
-        if (this.ma==o.ma) {
-            return 0;
+        int ssTen = this.ten.compareToIgnoreCase(o.getTen());
+        if (ssTen == 0) {
+            if (this.ma == o.ma) {
+                return 0;
+            }
+            if (this.ma > o.ma) {
+                return -1;
+            }
         }
-        if (this.ma>o.ma) {
-            return 1;
-        }
-        return -1;
+        return 1;
     }
-    
-    
+
 }
