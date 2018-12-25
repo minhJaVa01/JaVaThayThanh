@@ -10,22 +10,11 @@ package Class.model;
  * @author nguye
  */
 public class KhachHang {
+
     private String ma;
     private String ten;
     private int tuoi;
     private String diaChi;
-
-    public KhachHang(String ma, String ten, int tuoi, String diaChi) {
-        this.ma = ma;
-        this.ten = ten;
-        this.tuoi = tuoi;
-        this.diaChi = diaChi;
-    }
-    
-    
-    public KhachHang() {
-        System.out.println(" Contructor mặc định tự động được gọi");
-    }
 
     public String getMa() {
         return ma;
@@ -58,8 +47,22 @@ public class KhachHang {
     public void setDiaChi(String diaChi) {
         this.diaChi = diaChi;
     }
+
+    public KhachHang(String ma, String ten, int tuoi, String diaChi) {
+        this.ma = ma;
+        this.ten = ten;
+        this.tuoi = tuoi;
+        this.diaChi = diaChi;
+    }
+
+    public KhachHang() {
+        System.out.println(" Contructor mặc định tự động được gọi");
+    }
+
+    @Override
+    public String toString() {
+        return "KhachHang{" + "ma=" + ma + ", ten=" + ten + ", tuoi=" + tuoi + ", diaChi=" + diaChi + '}';
+    }
     
-    
-    
-  
+
 }
