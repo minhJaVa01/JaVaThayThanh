@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
         NhanVien teo = new NhanVienThoiVu();
         teo.setTen("nguyen van manh");
-        System.out.println(teo );
+        System.out.println(teo);
     }
     
 }
