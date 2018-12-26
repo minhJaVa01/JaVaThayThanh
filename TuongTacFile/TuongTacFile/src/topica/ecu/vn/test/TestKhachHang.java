@@ -6,7 +6,7 @@
 package topica.ecu.vn.test;
 
 import java.util.ArrayList;
-import topica.ecu.vn.io.TestFileFactory;
+import topica.ecu.vn.io.TextFileFactory;
 import topica.ecu.vn.model.KhachHang;
 
 /**
@@ -19,7 +19,8 @@ public class TestKhachHang {
         dsKH.add(new KhachHang("KH01","AN")); 
         dsKH.add(new KhachHang("KH02","THUY"));
         dsKH.add(new KhachHang("KH03","LINH"));
-        boolean kt = TestFileFactory.luuFile(dsKH, "D:\\dulieu.txt");
+        dsKH.add(new KhachHang("KH04","nguyen"));
+        boolean kt = TextFileFactory.luuFile(dsKH , "D:\\dulieu1.txt");
         if (kt ==true) {
             System.out.println("Đã lưu file thành công");
         }
@@ -30,6 +31,8 @@ public class TestKhachHang {
     }
     public static void main(String[] args) {
         testLuuFile();
+        
+        
     }
     
 }

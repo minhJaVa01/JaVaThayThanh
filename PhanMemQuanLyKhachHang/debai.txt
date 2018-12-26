@@ -1,0 +1,6 @@
+1.Nh?p khách hàng
+2.Xu?t Khách Hàng
+3.Luu Khách Hàng
+4.Tìm ki?m khách hàng
+5.S?p x?p khách hàng
+6.Luu và d?c file

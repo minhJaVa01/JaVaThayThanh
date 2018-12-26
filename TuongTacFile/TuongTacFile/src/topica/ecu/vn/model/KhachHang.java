@@ -5,11 +5,13 @@
  */
 package topica.ecu.vn.model;
 
+import java.io.Serializable;
+
 /**
  *
  * @author nguye
  */
-public class KhachHang {
+public class KhachHang implements Serializable{
     private String ma;
     private String ten;
 
@@ -41,7 +43,4 @@ public class KhachHang {
     public String toString() {
         return this.ma + "\t " + this.ten;
     }
-    
-    
-    
 }
