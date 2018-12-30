@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập a" />
+
+    <EditText
+        android:id="@+id/txtEditA"
+        android:hint="Vui lòng nhập số A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Nhập B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txtEditB"
+        android:hint="Vui lòng nhập số B"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnCong"
+        android:layout_gravity="center_horizontal"
+        android:onClick="xuLyPhepCong"
+        android:text="(+)ONCLICK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnTru"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="(-)Phép Trừ"/>
+    <Button
+        android:id="@+id/btnNhan"
+        android:text="(*)Phep Nhan"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnChia"
+        android:layout_gravity="center_horizontal"
+        android:text="(/) Phep Chia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnAn"
+        android:text="Activity As Listener"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/btnExit"
+        android:text="Explicit Class listener"
+        android:layout_gravity="center_horizontal "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

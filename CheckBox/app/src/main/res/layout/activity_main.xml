@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ban thich hoc mon nao cua TOPICA"
+        android:textColor="@android:color/holo_red_light" />
+
+    <CheckBox
+        android:id="@+id/chkAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lap trinh Android" />
+
+    <CheckBox
+        android:id="@+id/chkWindown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lap trinh WimdowPhone" />
+
+    <CheckBox
+        android:id="@+id/chkIOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lap trinh IOS" />
+
+    <Button
+        android:id="@+id/btnChon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Chon mon hoc" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Các môn bạn đăng kí là:" />
+
+    <TextView
+        android:id="@+id/txtMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

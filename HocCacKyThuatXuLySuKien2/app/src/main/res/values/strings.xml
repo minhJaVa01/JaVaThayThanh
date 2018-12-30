@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HocCacKyThuatXuLySuKien</string>
+    <string name="button_txtA">Nhập số a</string>
+    <string name="app_txtEditA">nhập số a</string>
+    <string name="button_txtB">Nhập số b</string>
+
+
+</resources>
