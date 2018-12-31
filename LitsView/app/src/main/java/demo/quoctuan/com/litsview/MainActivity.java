@@ -35,6 +35,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void addControls() {
         arrThu= getResources().getStringArray(R.array.arrayThu);
-        lvThu = findViewById(R.id.lvThu);
+        adapterThu = new ArrayAdapter<String>(
+                MainActivity.this,
+                android.R.layout.simple_list_item_1,
+                arrThu
+        );
+        lvThu = this.<ListView>findViewById(R.id.lvThu);
+        lvThu.setAdapter(adapterThu);
     }
 }
