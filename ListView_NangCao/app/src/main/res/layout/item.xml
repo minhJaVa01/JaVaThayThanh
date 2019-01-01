@@ -29,6 +29,7 @@
             android:id="@+id/btnSms"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
         <ImageButton
             android:id="@+id/Chitiet"
             android:layout_width="wrap_content"
