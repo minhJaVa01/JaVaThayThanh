@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -15,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
     String []arrThu;
     ArrayAdapter<String>adapterThu;
     ListView lvThu;
+    EditText txtTen;
+    Button btnLuu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         lvThu.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this,"ban chon ["+arrThu[position],Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"ban chon ["+ arrThu[position],Toast.LENGTH_SHORT).show();
             }
         });
     }
