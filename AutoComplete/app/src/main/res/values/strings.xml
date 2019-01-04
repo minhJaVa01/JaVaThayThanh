@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AutoComplete</string>
+    <string-array name="arrTinh">
+        <item>HA NOI</item>
+        <item>HA GIANG</item>
+        <item>HA DONG</item>
+        <item>HA NAM</item>
+        <item>HA TINH</item>
+        <item>HA TIEN</item>
+        <item>HOANG SA</item>
+        <item>LAO CAI</item>
+        <item>YEN BAI</item>
+        <item>PHU THO</item>
+        <item>TUYEN QUANG</item>
+        <item>SON LA</item>
+        <item>LAI CHAU</item>
+        <item>DIEN BIEN</item>
+    </string-array>
+</resources>

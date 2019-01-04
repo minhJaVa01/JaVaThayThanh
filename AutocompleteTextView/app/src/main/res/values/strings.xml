@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AutocompleteTextView</string>
+    <string-array name="arrTinhThanh">
+        <item>Ha Noi</item>
+        <item>Ha Giang</item>
+        <item>Ha Tay</item>
+        <item>Ha Nam</item>
+        <item>HA Dong</item>
+    </string-array>
 </resources>
