@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void xuLyXacNhan() {
-        String s = txtTen.getText().toString() +"\n NƠI SINH :"+ autoTinhThanh.getText().toString();
+        String s = " TÊN :" +txtTen.getText().toString() +"\n  NƠI SINH :"+ autoTinhThanh.getText().toString();
         txtThongTin.setText(s);
     }
 
@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         txtThongTin = this.<EditText>findViewById(R.id.txtThongTin);
         btnXacNhan = this.<Button>findViewById(R.id.btnXacNhan);
         autoTinhThanh = this.<AutoCompleteTextView>findViewById(R.id.autoTinhThanh);
+        //
         arrTinhThanh = getResources().getStringArray(R.array.arrTinh);
         adapterTinhThanh = new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,arrTinhThanh);
         autoTinhThanh.setAdapter(adapterTinhThanh);
