@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void addEvents() {
-
         btnXacNhan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         txtThongTin = this.<TextView>findViewById(R.id.txtThongTin);
         btnXacNhan = this.<Button>findViewById(R.id.btnXacNhan);
         autoTinhThanh = this.<AutoCompleteTextView>findViewById(R.id.autotxtTinhThanh);
+
         arrTinhThanh = getResources().getStringArray(R.array.arrTinhThanh);
         adapterTinhThanh = new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,arrTinhThanh);
         autoTinhThanh.setAdapter(adapterTinhThanh);

@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         btnXacNhan = this.<Button>findViewById(R.id.btnXacNhan);
         autoTinhThanh = this.<AutoCompleteTextView>findViewById(R.id.autoTinhThanh);
         //
-        arrTinhThanh = getResources().getStringArray(R.array.arrTinh);
+        arrTinhThanh = getResources().getStringArray(R.array.arrTinhThanh);
         adapterTinhThanh = new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,arrTinhThanh);
         autoTinhThanh.setAdapter(adapterTinhThanh);
 
