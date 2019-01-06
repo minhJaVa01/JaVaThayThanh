@@ -1,4 +1,4 @@
-package vn.edu.topica.projectthucte;
+package vn.edu.topica.projectkaraok;
 
 import org.junit.Test;
 
