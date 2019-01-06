@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
-
+        android:inputType="number"
         android:id="@+id/txtA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -17,10 +17,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
+        android:inputType="number"
         android:id="@+id/txtB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
+        android:id="@+id/btnCong"
         android:text="+"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
