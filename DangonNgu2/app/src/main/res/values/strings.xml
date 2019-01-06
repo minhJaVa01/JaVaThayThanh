@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">English Languages</string>
+    <string name="spring">Spring</string>
+    <string name="summer">Summer</string>
+    <string name="winter">Winter</string>
+    <string name="Authumn">Authumn</string>
+</resources>

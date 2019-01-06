@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
                 xuLyCong();
             }
         });
-
     }
 
     private void xuLyCong() {
@@ -81,6 +80,5 @@ public class MainActivity extends AppCompatActivity {
         txtA.setText("");
         txtB.setText("");
         Toast.makeText(MainActivity.this,"Kết quả là"+s,Toast.LENGTH_SHORT).show();
-
     }
 }
