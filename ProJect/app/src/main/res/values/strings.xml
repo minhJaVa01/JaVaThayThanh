@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ProJect</string>
+    <string name="listBaiHat">DANH SÁCH BÀI HÁT</string>
+    <string name="like">BÀI HÁT YÊU THÍCH</string>
 </resources>
